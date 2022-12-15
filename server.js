@@ -11,14 +11,14 @@ var io = socket_io(server);
 var users = [];
 
 var words = [
-    "word", "letter", "number", "person", "pen", "police", "people",
-    "sound", "water", "breakfast", "place", "man", "men", "woman", "women", "boy",
-    "girl", "serial killer", "Oregon Trail", "week", "month", "name", "sentence", "line", "air",
-    "land", "home", "hand", "house", "picture", "animal", "mother", "father",
-    "big foot", "sister", "world", "head", "page", "country", "question",
-    "shiba inu", "school", "plant", "food", "sun", "state", "eye", "city", "tree",
-    "farm", "story", "sea", "night", "day", "life", "north", "south", "east",
-    "west", "child", "children", "example", "paper", "music", "river", "car",
+    "ぼうげんぼっと", "いちの", "すうがく", "ひと", "ぺん", "こやま", "おおうち",
+    "ぶた", "みず", "たいよう", "こうえん", "だんせい", "じょせい", "しゃわー", "ぼうげんぼっと", "じきゅうそう",
+    "りれー", "さめ", "かめ", "かれんだー", "つき", "なふだ", "がくらん", "らいん", "すかいぷ",
+    "ちーむす", "いえ", "せいとてちょう", "ねずみ", "ぱそこん", "すまほ", "ぺっとぼとる", "びーる",
+    "ごみばこ", "にくまん", "ぴざ", "ちきゅう", "ほーむぺーじ", "にほん", "あめりか",
+    "ちゅうごく", "がっこう", "しょくぶつ", "てんぷらそば", "たいよう", "あし", "め", "かお", "き",
+    "のうじょう", "ほん", "うみ", "よる", "かさい", "せいめい", "かさいほうちき", "きしだそうり", "しんぞう",
+    "ばくだん", "ようちえん", "かみさま", "かお", "paper", "music", "river", "car",
     "Power Rangers", "feet", "book", "science", "room", "friend", "idea", "fish",
     "mountain", "horse", "watch", "color", "face", "wood", "list", "bird",
     "body", "fart", "family", "song", "door", "forest", "wind", "ship", "area",
